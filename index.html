@@ -35,12 +35,27 @@
 
       <div class="main-second-div-lower">
         <div class="input-container">
-          <input class="input" type="text" name="first name" id="first-name" placeholder="First Name" required>
-          <input class="input" type="text" name="last name" id="last-name" placeholder="Last Name " required>
-          <input class="input" type="email" name="email" id="email" placeholder="Email Address" required>
-          <input class="input" type="password" name="password" id="password" placeholder="Password" required>
+          <div>
+            <input class="input js-first-name" type="text" name="first name" id="first-name" placeholder="First Name" required>
+            <p class="error-text js-error-text"><em>First name cannot be empty</em></p>
+          </div>
 
-          <button class="button submit-button" >
+          <div>
+            <input class="input js-last-name" type="text" name="last name" id="last-name" placeholder="Last Name " required>
+            <p class="error-text js-error-text"><em>Last name cannot be empty</em></p>
+          </div>
+
+          <div>
+            <input class="input js-email" type="email" name="email" id="email" placeholder="Email Address" required>
+            <p class="error-text js-error-text"><em>Looks like this is not an email</em></p>
+          </div>
+
+          <div>
+            <input class="input js-password" type="password" name="password" id="password" placeholder="Password" required>
+            <p class="error-text js-error-text">Password cannot be empty</p>
+          </div>
+
+          <button class="button submit-button js-submit-button" >
             Claim your free trial
           </button>
 

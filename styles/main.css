@@ -119,6 +119,10 @@ body {
   font-size: 15px;
 }
 
+.submit-button:hover {
+  background-color: #38cc8ca4;
+}
+
 .terms-and-services {
   color: #b9b6d3;
   text-align: center;
@@ -128,6 +132,12 @@ body {
 
 .red-text {
   color: red;
+}
+
+.error-text {
+  color: red;
+  text-align: right;
+  margin-right: 10px;
 }
 
 
