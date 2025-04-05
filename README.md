@@ -3,8 +3,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/E00440/frontendmentor-intro-component-with-signup-form)
+- Live Site URL: (https://intro-comp-with-signup-form-e00440.netlify.app)
 
 
 
